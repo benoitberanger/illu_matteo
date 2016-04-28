@@ -21,7 +21,7 @@ stim.pathLength = 2.6;      % physical length of motion path of each noise patch
 stim.sep = 2.5;             % distance between noise patches
 stim.period = 1.8;          % sec, duration of one motion cycle (determine speed)
 
-stim.externalSpeed = stim.pathLength/stim.period; % external speed (degree/sec) currently set as a function of period
+stim.externalSpeed = (2*stim.pathLength)/stim.period; % external speed (degree/sec) currently set as a function of period
 
 %% display settings
 
